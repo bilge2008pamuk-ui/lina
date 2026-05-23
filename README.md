@@ -1,0 +1,2 @@
+# lina
+ilk uygulamam
