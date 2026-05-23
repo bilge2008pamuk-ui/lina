@@ -1,0 +1,25 @@
+index.html
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Benim Uygulamam</title>
+</head>
+<body style="font-family: Arial; text-align:center; margin-top:50px;">
+
+  <h1>Mini Uygulama 📱</h1>
+
+  <input id="text" placeholder="Bir şey yaz" />
+  <button onclick="goster()">Göster</button>
+
+  <h2 id="sonuc"></h2>
+
+  <script>
+    function goster() {
+      let veri = document.getElementById("text").value;
+      document.getElementById("sonuc").innerText = veri;
+    }
+  </script>
+
+</body>
+</html>
